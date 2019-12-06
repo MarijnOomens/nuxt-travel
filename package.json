@@ -1,0 +1,32 @@
+{
+  "name": "nuxttravel",
+  "version": "1.0.0",
+  "description": "A project for learning Nuxt",
+  "author": "Marijn Oomens <oomensmarijn@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "mini-toastr": "^0.8.1",
+    "nuxt": "^2.0.0",
+    "vue-toasted": "^1.1.27",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "prettier": "^1.18.2"
+  }
+}
